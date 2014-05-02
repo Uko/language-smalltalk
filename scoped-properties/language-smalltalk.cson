@@ -1,0 +1,3 @@
+'.source.smalltalk':
+  'editor':
+    'decreaseIndentPattern': '^\\s+\\]$'

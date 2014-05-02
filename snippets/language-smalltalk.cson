@@ -1,0 +1,43 @@
+'.source.smalltalk':
+  'assert':
+    'prefix': 'as'
+    'body': 'self assert: ${1:expression}'
+  'category':
+    'prefix': 'cat'
+    'body': '<category: \'$1\'>'
+  'class (Object subclass: ...)':
+    'prefix': 'cla'
+    'body': 'Object subclass: $1 [\n  <category: \'$2\'>\n  <comment: \'$3\'>\n  $0\n]'
+  'class instance variables ...':
+    'prefix': 'cla'
+    'body': '${1:Object} subclass: #$1\n  instanceVariableNames: \'$3\' \n  classVariableNames: \'$4\'\n  poolDictionaries: \'$5\' \n  category: \'$6\'\n\n  $0'
+  'class (without category)':
+    'prefix': 'cla'
+    'body': 'Object subclass: $1 [\n  $0\n]'
+  'class_method':
+    'prefix': 'cmethod'
+    'body': '$1 class >> ${2:method_name} [\n  $0\n]'
+  'comment':
+    'prefix': 'com'
+    'body': '<comment: \'$1\'>'
+  'eval':
+    'prefix': 'eval'
+    'body': 'Eval [\n  $0\n]'
+  'if':
+    'prefix': 'if'
+    'body': '${1:expression} ifTrue: [ $2 ] ifFalse: [ $3 ].'
+  'ifFalse':
+    'prefix': 'iff'
+    'body': '$1{:expression} ifFalse: [ $0 ].'
+  'ifNil':
+    'prefix': 'ifn'
+    'body': '${1:expression} ifNil: [ $0 ].'
+  'ifTrue':
+    'prefix': 'ift'
+    'body': '${1:expression} ifTrue: [ $0 ].'
+  'method':
+    'prefix': 'method'
+    'body': '${1:method_name} [\n  <category: \'${2:accessing}\'>\n  $0\n]'
+  'return':
+    'prefix': 'ret'
+    'body': '^${1:self}'
