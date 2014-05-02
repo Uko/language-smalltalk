@@ -1,6 +1,6 @@
 {
   "name": "language-smalltalk",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A package for Smalltalk-like languages. Generated from TextMate bundle by Tomas D'Stefano",
   "repository": {
     "type": "git",
@@ -13,6 +13,5 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
