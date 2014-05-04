@@ -3,7 +3,7 @@
 ]
 'foldingStartMarker': '\\['
 'foldingStopMarker': '^\\s*\\]|^\\s\\]'
-'name': 'SmallTalk'
+'name': 'Smalltalk'
 'patterns': [
   {
     'match': '\\b(super|self|yourself|new|extend|class|Smalltalk)\\b'
